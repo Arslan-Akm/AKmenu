@@ -1,3 +1,9 @@
+
+html{
+  /* background-color: #521752; */
+  font-family: 'Barlow Condensed', sans-serif;
+  /* font-size: 100%;    */
+}
 .about {
   background-color: white;
   width: 100%;
