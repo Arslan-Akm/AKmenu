@@ -1,7 +1,6 @@
 html{
-  /* background-color: #521752; */
+
   font-family: 'Barlow Condensed', sans-serif;
-  /* font-size: 100%;    */
 }
 *
  {
@@ -49,8 +48,8 @@ body {
 }
 
 .second .image img {
-  width: 60%;
-  height: 400px;
+  width: 50%;
+  height: 50%;
 }
 
 .second .image {
@@ -63,8 +62,9 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 50px;
-  width: 40%;
+  width: 50%;
   height: 50%;
+
 }
 
 .second .image .prices p {
@@ -89,7 +89,7 @@ body {
   margin-top: 10px;
 }
 .main .second .image header .herop {
-  width: 140px;
+  width: 138px;
 }
 
 .menu {
@@ -215,9 +215,13 @@ body {
   }
 }
 
-@media (max-width: 1566px) {
+@media (max-width: 1200px) {
   .navbar-links ul li {
     margin-top: 10px;
+
+  }
+  .main .second .image img {
+    width: 60%;
   }
 }
 @media (max-width: 950px) {
@@ -233,11 +237,12 @@ body {
     width: 100%;
   }
   .main .second .image img {
-    width: 100%;
+    width: 60%;
   }
-  .main .second .image .prices .cta {
-    width: 100%;
-  }
+    /* .main .second .image .prices .cta {
+      width: 100%;
+      
+    } */
 }
 @media (max-width: 972px) {
   .menu {
